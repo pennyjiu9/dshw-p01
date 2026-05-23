@@ -13,3 +13,9 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# Quarto 构建输出（由 GitHub Actions 自动生成）
+_book/
+
+/.quarto/
+**/*.quarto_ipynb

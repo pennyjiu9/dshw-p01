@@ -1,0 +1,46 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "金融数据获取、管理与初步分析"
+  subtitle: "dshw-p01 项目报告"
+  author: "Penny Jiu"
+  date: "2026-05-24"
+  chapters:
+    - index.qmd
+    - chapters/01-data-download.qmd
+    - chapters/02-data-cleaning.qmd
+    - chapters/03-analysis.qmd
+  repo-url: https://github.com/pennyjiu9/dshw-p01
+  repo-branch: main
+  downloads: [epub]
+  sharing: [twitter, facebook]
+  page-footer:
+    center: "版权所有 &copy; 2026 Penny Jiu"
+    background: "#2c3e50"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    number-sections: true
+  epub:
+    toc: true
+    number-sections: true
+
+execute:
+  echo: false
+  warning: false
+  message: false

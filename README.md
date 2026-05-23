@@ -38,6 +38,14 @@
 - **进阶（方式 B）**：Parquet 格式
   - **选择 Parquet 的理由**：列式存储格式，支持高效的压缩和编码，可选择性读取所需列，自带 Schema 信息，适合大规模数据的存储和分析
 
+## Quarto 电子书
+
+本项目已整理为在线电子书，可通过以下链接访问：
+
+**https://pennyjiu9.github.io/dshw-p01/**
+
+电子书包含目录导航、各章节标题、图表和分析文字，排版整洁。
+
 ## GitHub 仓库
 
 https://github.com/pennyjiu9/dshw-p01
