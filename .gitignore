@@ -14,6 +14,9 @@ __pycache__/
 venv/
 env/
 
+# VS Code 本地设置（含环境路径等个人信息）
+.vscode/
+
 # Quarto 构建输出（由 GitHub Actions 自动生成）
 _book/
 
