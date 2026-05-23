@@ -14,8 +14,6 @@ book:
     - chapters/03-analysis.qmd
   repo-url: https://github.com/pennyjiu9/dshw-p01
   repo-branch: main
-  downloads: [epub]
-  sharing: [twitter, facebook]
   page-footer:
     center: "版权所有 &copy; 2026 Penny Jiu"
     background: "#2c3e50"
@@ -32,13 +30,6 @@ format:
     number-sections: true
     fig-cap-location: bottom
     tbl-cap-location: top
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    number-sections: true
-  epub:
-    toc: true
-    number-sections: true
 
 execute:
   echo: false
